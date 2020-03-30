@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/fontawesome.css">
+ 
+    <title>Document</title>
+</head>
+<body class="bg-info">
+    
+   <section class="container bg-light mt-5">
+
+    <div class="row">
+        
+            <div class="col-12">
+                  <h4 class="text-center " id="new"> + NEW GAME</h4>
+                
+            </div>
+            <div class="col-12 mt-5">
+                 <div class="row container ">
+                    <div class="col-4 active d ">
+                        <h1 class="text-uppercase text-center" id="name-0">player 1</h1>
+                        <p class="display-3 h text-center text-danger" id="score-0">0</p>
+                    </div>
+                    <div class="col-4 ">
+                        <div class="row justify-content-center">
+                            <img src="dice1.png" class="w-50" id="dom">
+                            <img src="dice1.png" class="w-50" id="dom1">
+                        </div>
+                  
+                    </div>
+                    <div class="col-4 player-2">
+
+                        <h1 class="text-uppercase text-center " id="name-1">player 2</h1>
+                        <p class="display-3 text-center text-danger" id="score-1">0</p>
+                    </div>
+
+                 </div>
+            </div>
+
+            <div class="col-12 mt-5 mb-5 ">
+                <div class="row container">
+
+                    <div class="col-4 bg-danger">
+                        <p class="text-center">current</p>
+                        <h5 class="text-center text-light" id="current-0">0</h5>
+                    </div>
+                    <div class="col-4">
+                        <button class="btn btn-outline-info w-100" id="roll">ROLL DICE</button>
+                        <button class="btn btn-warning mt-3 w-100" id="hold" >HOLD</button>
+                    </div>
+                    <div class="col-4 bg-danger">
+                      
+                        <p class="text-center">current</p>
+                        <h5 class="text-center text-light" id="current-1" >0</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-5 ">
+                <div class="row justify-content-center align-items-center">
+                    
+                        <input placeholder="input winning score" id="input" class="w-50 btn btn-outline-danger">
+                   
+                </div>
+               
+            </div>
+    </div>
+
+   </section>
+   <script src="./gases.js"></script>
+</body>
+</html>
